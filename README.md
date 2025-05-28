@@ -7,6 +7,7 @@ This repository provides an implementation of a game-theoretic clustering algori
 To conduct parameter experiments on a specific dataset:
 
 1. Uncomment the **setup code block** for the desired graph (among the four datasets).
+   - ⚠️ Only uncomment the lines **up to (but not including)** the `clustering_algorithm` function call.
 2. Then, uncomment the **parameter test block** located below the dataset setup.
 
 In the parameter test block, there are two options for the `predicted_labels` variable.  
@@ -16,7 +17,7 @@ In the parameter test block, there are two options for the `predicted_labels` va
 
 ## 🧭 How to Run Clustering for Each Graph
 
-If you want to perform clustering on a specific graph, simply **uncomment the entire code block** corresponding to that graph.
+If you want to perform full clustering on a specific graph, simply **uncomment the entire code block**, including the call to the `clustering_algorithm` function.
 
 ---
 
